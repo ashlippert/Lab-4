@@ -96,6 +96,7 @@ February 24th, 2025
    Unfortunately, our group did not take a photo of the constructed circuit for Schematic 3, but when constructed, the circuit assembled using Schematic 3 should have the same setup as the previous circuit in Figure 5, but with resistors values of 1.5 MΩ and 1 kΩ. 
 <br>
 
+<br/>
 
 **Objective 2: Op Amps and Frequency Response**
 
@@ -104,19 +105,18 @@ February 24th, 2025
 
    The voltage follower circuit was constructed following the given schematic. The function generator was set to 1V amplitude and 2 kHz frequency, and it was connected to Vi.
 
-
 <div align="center">
-<img src="https://github.com/user-attachments/assets/db1927d1-b8ee-47f9-a5d6-02810c6a91e9" alt="Schematic 4" width="400">
+<img src="https://github.com/user-attachments/assets/05193f3f-e39c-44ee-b2ad-e1f052b6da63" alt="Schematic 4" width="400">
 <br/>
 
-<figcaption style="font-size: 16px; text-align: center;"> Figure 7: Voltage follower op amp current and speed schematic. </figcaption>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 7: Voltage follower op amp circuit schematic. </figcaption>
 </div>   
 
 <br/>
   Once assembled, the circuit should look resemble Figure 8 below.
 
    <div align="center">
-  <img src="https://github.com/user-attachments/assets/d2981ce5-c15f-4577-a524-8122d3324fc7" alt="Assembled parallel resistor circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/0a8a5f82-c6f0-4582-8a80-a51c4bc0ef43" alt="Assembled parallel resistor circuit" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 8: Constructed voltage follower op amp circuit from Figure 7. </figcaption>
 </div>
