@@ -22,6 +22,7 @@ February 24th, 2025
 8. A 10 kΩ trimmer potentiometer
 9. Flathead screwdriver
 10. Breadboard
+11. Function Generator
 
 ## Assembly Methods
 
@@ -122,32 +123,32 @@ February 24th, 2025
 
 2.2. **Integrating Op Amp Circuit**
 
-   The integrating op amp circuit was assembled according to the schematic given in Figure . The function generator was connected to Vi.
+   The integrating op amp circuit was assembled according to the schematic given in Figure 9. The function generator was connected to Vi.
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/4efbc658-43d3-44e1-a12a-e7e4daccd3dd" alt="Schematic 4" width="400">
+<img src="https://github.com/user-attachments/assets/4efbc658-43d3-44e1-a12a-e7e4daccd3dd" alt="Schematic 5" width="400">
 <br/>
 
-<figcaption style="font-size: 16px; text-align: center;"> Figure 9: Transistor controlled motor current and speed schematic. </figcaption>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 9: Intergrating op amp schematic. </figcaption>
 </div>   
 
 <br/>
-  Once assembled, the circuit should look resemble Figure 8 below.
+  Once assembled, the circuit should look resemble Figure 10 below.
 
    <div align="center">
-  <img src="https://github.com/user-attachments/assets/d2981ce5-c15f-4577-a524-8122d3324fc7" alt="Assembled parallel resistor circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/d2981ce5-c15f-4577-a524-8122d3324fc7" alt="Assembled Integrating op amp circuit" width="400">
       <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 10: Transistor controlled motor current and speed schematic. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 10: Constructed intergrating op amp circuit. </figcaption>
 </div>
 
 <br>
 
-2.3. ** Differentiating Op Amp Circuit**
-   The differentiating op amp circuit was built following the schematic shown in Figure 11. The function generator was connected to Vi.
+2.3. **Differentiating Op Amp Circuit**
+   The differentiating op amp circuit was built following the schematic shown in Figure 11. The function generator was connected to Vi for this circuit.
 
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/db1927d1-b8ee-47f9-a5d6-02810c6a91e9" alt="Schematic 4" width="400">
+<img src="https://github.com/user-attachments/assets/dda2b54f-a855-4d3c-8e59-73c12867e2c4" alt="Schematic 6" width="400">
 <br/>
 
 <figcaption style="font-size: 16px; text-align: center;"> Figure 11: Differentiating op amp schematic. </figcaption>
@@ -157,7 +158,7 @@ February 24th, 2025
   Once assembled, the circuit should look resemble Figure 8 below.
 
    <div align="center">
-  <img src="https://github.com/user-attachments/assets/d2981ce5-c15f-4577-a524-8122d3324fc7" alt="Assembled parallel resistor circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/78e4e640-8950-4402-a60b-a432eed23603" alt="Assembled differentiating op amp circuit" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 12: Constructed differentiating op amp schematic. </figcaption>
 </div>
@@ -167,34 +168,50 @@ February 24th, 2025
 
 1. Fluke 87 V DMM
 2. DC Power Supply
+3. Oscilloscope
+4. Function Generator
    
 ## Test Procedures
 
 **Resistor Measurement**
 
-   For this part of the experiment, the resistance each resistor was measured using a Digital Multimeter (DMM) and the results were compared to the expected values based on the resistor color codes. We recorded the expected resistance, the acceptable tolerance range, and the measured resistance in a table. Any resistors that fell outside the expected range were noted.
+   For this part of the experiment, the resistance each resistor was measured using a Digital Multimeter (DMM) and the results were compared to the expected values based on the resistor color codes. We recorded the expected resistance, the acceptable tolerance range, and the measured resistance in a table. Any resistors that fell outside the expected range were noted. The technique used for resistor measurement is shown in Figure 13 below.
+
+ <div align="center">
+  <img src="https://github.com/user-attachments/assets/fd70fd10-4528-41e1-9a64-bf901897e7e4" alt="Assembled differentiating op amp circuit" width="400">
+      <br/>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 13: Measuring Resistor Values. </figcaption>
+</div>
+<br>
+
 
 **Part 1.1: Unity Gain Inverting Op Amp**
 
 1. **Voltage Measurements:**
    
-   Vo vs. Vi data was collected for at least 9 Vi values ranging from negative to positive saturation points (-15V to 15V). The corresponding Vo values were recorded, and a graph was prepared, showing the lab data as scattered points around the expected gain line. The potentiometer was adjusted to Vi = -15, -14, -12, -5, 0, 5, 12, 14, 15, then Vo was measured. Figure 12 describes the technique used to change the resistance value of the 10 kΩ potentiometer.
+   Vo vs. Vi data was collected for at least 9 Vi values ranging from negative to positive saturation points (-15V to 15V). The corresponding Vo values were recorded, and a graph was prepared, showing the lab data as scattered points around the expected gain line. The potentiometer was adjusted to Vi = -15, -14, -12, -5, 0, 5, 12, 14, 15, then Vo was measured. Figure 14 describes the technique used to change the resistance value of the 10 kΩ potentiometer.
 
 <br>
 <div align= "center">
 <img src="https://github.com/user-attachments/assets/c3f1a1d9-a926-455f-b542-f99bfec9acda" alt "Circuit 1" width="400"/>
 <br>
-<figcaption style="font-size: 16px; text-align: center;"> Figure 12: Altering the resistance of the 10kΩ potentiometer. </figcaption>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 14: Altering the resistance of the 10kΩ potentiometer. </figcaption>
 </div>
 
 <br>
-
 
 **Part 1.2: Moderate Gain Inverting Op Amp Circuit**
 
 1. **Voltage Measurements:**
  
-  The oscilloscope was used to plot Vi on channel 1 and Vo on channel 2. The gain of the circuit was measured and calculated using the oscilloscope.
+  The oscilloscope was used to plot Vi on channel 1 and Vo on channel 2. The gain of the circuit was measured and calculated using the oscilloscope. The observed o-scope display is provided in Figure 15.
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/b524aa6d-455b-4cc4-b844-3d1d2aeb82de" alt "Oscope Gain" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 15: Display on o-scope when plotting Vi and Vo on separate channels. </figcaption>
+</div>
 
 
 <div/>
