@@ -115,7 +115,7 @@ February 24th, 2025
   Once assembled, the circuit should look resemble Figure 8 below.
 
    <div align="center">
-  <img src="https://github.com/user-attachments/assets/0a8a5f82-c6f0-4582-8a80-a51c4bc0ef43" alt="Assembled parallel resistor circuit" width="400">
+  <img src="[https://github.com/user-attachments/assets/0a8a5f82-c6f0-4582-8a80-a51c4bc0ef43](https://github.com/user-attachments/assets/1e3d7d5b-bb39-4b12-9abe-971e10933cd9)" alt="Assembled voltage follower op amp circuit" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 8: Constructed voltage follower op amp circuit from Figure 7. </figcaption>
 </div>
@@ -125,7 +125,7 @@ February 24th, 2025
    The integrating op amp circuit was assembled according to the schematic given in Figure . The function generator was connected to Vi.
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/db1927d1-b8ee-47f9-a5d6-02810c6a91e9" alt="Schematic 4" width="400">
+<img src="https://github.com/user-attachments/assets/4efbc658-43d3-44e1-a12a-e7e4daccd3dd" alt="Schematic 4" width="400">
 <br/>
 
 <figcaption style="font-size: 16px; text-align: center;"> Figure 9: Transistor controlled motor current and speed schematic. </figcaption>
