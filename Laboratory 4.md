@@ -120,6 +120,7 @@ February 24th, 2025
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 8: Constructed voltage follower op amp circuit from Figure 7. </figcaption>
 </div>
+<br>
 
 2.2. **Integrating Op Amp Circuit**
 
@@ -129,7 +130,7 @@ February 24th, 2025
 <img src="https://github.com/user-attachments/assets/4efbc658-43d3-44e1-a12a-e7e4daccd3dd" alt="Schematic 5" width="400">
 <br/>
 
-<figcaption style="font-size: 16px; text-align: center;"> Figure 9: Intergrating op amp schematic. </figcaption>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 9: Integrating op amp schematic. </figcaption>
 </div>   
 
 <br/>
