@@ -25,43 +25,48 @@ February 24th, 2025
 
 ## Assembly Methods
 
+**Assembling the Power Supply**
+   The following lab utilizes two DC Power Supplies (DCPS) where the positive output of one is connected to the ground. The dual DCPS setup used for this lab can be described by Figure 1 below.
+
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/6f79af6e-2f60-4537-8b5c-78980a8795f3" alt "Schematic 1" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 1: Setup of 2 DCPS. </figcaption>
+</div>
+
 **Objective 1: Limits of Op Amps**
 
-1. **Unity Gain Inverting Op Amp Circuit**
+1.1. **Unity Gain Inverting Op Amp Circuit**
 
-   The unity gain inverting op amp circuit was constructed according to the schematic shown in Figure 1. The voltage divider was connected to the positive and negative voltage supplies. The 10 kΩ potentiometer was adjusted using a flat head screwdriver to change the input voltage.
+   The unity gain inverting op amp circuit was constructed according to the schematic shown in Figure 2. The voltage divider was connected to the positive and negative voltage supplies. The 10 kΩ potentiometer was adjusted using a flat head screwdriver to change the input voltage.
 
 <div align= "center">
-<img src="https://github.com/user-attachments/assets/f3d6dfed-6490-4f5b-a008-85dc8d73c400" alt "Schematic 1" width="200"/>
+<img src="https://github.com/user-attachments/assets/f3d6dfed-6490-4f5b-a008-85dc8d73c400" alt "Schematic 1" width="400"/>
 <br>
-<figcaption style="font-size: 16px; text-align: center;"> Figure 1: Schematic describing the unity gain inverting op amp circuit built for part 1 of this lab. </figcaption>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 2: Schematic describing the unity gain inverting op amp circuit built for part 1 of this lab. </figcaption>
 </div>
 
 <br>
 
-   The circuit created using this schematic should resemble what is shown in Figure 2 below.
-
+   Once assembled, the circuit created using schematic 1 should resemble what is shown in Figure 3 below.
 <div align= "center">
-<img src="https://github.com/user-attachments/assets/c80a1233-a255-454c-b93a-becd8e07ac8d" alt "Circuit 1" width="400"/>
+<img src="https://github.com/user-attachments/assets/2b5ec215-5c07-42e6-8ee8-ea23271a593c" alt "Circuit 1" width="400"/>
 <br>
-<figcaption style="font-size: 16px; text-align: center;"> Figure 2: Constructed circuit from Schematic 1. </figcaption>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 3: Constructed unity gain inverting op amp circuit from Schematic 1. </figcaption>
 </div>
-
 <br>
 
-2. **LED Driven by a Transistor**
+1.2. **Moderate Gain Inverting Op Amp Circuit**
 
-   A new circuit was built to drive the LED using a transistor in the schematic shown in Figure 3. Voltages were measured at all test points, and currents were calculated using known resistor values. The current through the LED was compared to that of the previous circuit to analyze differences.  
-
-   Additionally, the transistor’s voltage drop was recorded and compared with the calculated expected values. The power supply was adjusted to observe changes in IC to help determine whether the transistor operated in the saturation region. The schematic for constructing this circuit is shown in Figure 3. The wire switch was also used for this circuit in place of a sliding switch.
+   The moderate gain inverting op amp circuit was assembled following the schematic shown in Figure 4. The function generator was set to 100mV and 2 kHz and connected to Vi, as shown in Figure 5.
 
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/66f77f2e-4f49-4d3a-93f6-4861215dcae8" alt="Schematic 2" width="400"/>
+<img src="https://github.com/user-attachments/assets/6a652a9d-c4e2-461c-9e93-3904b0991b73" alt="Schematic 2" width="400"/>
    
 <br/>
    
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 3: LED driven by transistor with a fixed current schematic. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 4: Schematic 2, moderate gain inverting op amp circuit. </figcaption>
 </div>
 
 <br>
@@ -69,64 +74,42 @@ February 24th, 2025
    When constructed, the circuit assembled using Schematic 2 should resemble Figure 4.
 
    <div align="center">
-  <img src="https://github.com/user-attachments/assets/dd238a1d-5742-4368-ac3d-01adf5b8a011" alt="Circuit 2" width="400"/>
+  <img src="https://github.com/user-attachments/assets/e5545ff6-a57e-4884-9d19-4f66c70b305a" alt="Circuit 2" width="400"/>
       
 <br>
-
    
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 4: Constructed circuit from Schematic 2. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 5: Constructed circuit from Schematic 2. </figcaption>
 </div>   
 
 
 <br>
 
-3. **LED Current Controlled Using a Transistor**
+1.3. **High-Gain Inverting Op Amp Circuit**
 
-   A potentiometer is introduced to control the base current of the transistor, effectively modulating the LED brightness. By adjusting the resistance, the base current changes, influencing the collector current and thus the LED’s brightness. This circuit demonstrates how transistors can be used for more than just on-off switching, they can also provide variable control.
-
-   The schematic for constructing this circuit is provided in Figure 5 below.
-
+   The high-gain inverting op amp circuit was built according to the schematic given in Figure 5. Additionally, the function generator was set to 10mV and 2 kHz.
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/5ecb04b3-15b5-48c6-80de-66bd0e2c849e" alt="Schematic 3" width="400"/>
+<img src="https://github.com/user-attachments/assets/37adea5c-f6c2-471a-aeec-44187eb0d36e" alt="Schematic 3" width="400"/>
 <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 5: Controlling LED current using a transistor schematic. </figcaption>
-</div>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 6: High gain inverting op amp schematic. </figcaption>
 
-
+   Unfortunately, our group did not take a photo of the constructed circuit for Schematic 3, but when constructed, the circuit assembled using Schematic 3 should have the same setup as the previous circuit in Figure 5, but with resistors values of 1.5 MΩ and 1 kΩ. 
 <br>
 
 
-   When constructed, the circuit assembled using Schematic 3 should resemble Figure 6.
-   
-<br>
-
-<div align="center">
-<img src="https://github.com/user-attachments/assets/bb907543-c792-47d3-a7fe-ccaed9e8d0af" alt="Circuit 3" width="400"/>
-      
-<br>
-
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 6: Constructed circuit from Schematic 3. </figcaption>
-</div>   
+**Objective 2: Op Amps and Frequency Response**
 
 
-<br>
+2.1. **Voltage Follower Circuit**
 
-
-**Objective 2: Motor Driven Circuit**
-
-
-1. **Motor Speed Control Using a Transistor**
-
-   In this circuit, a transistor is used to control the speed of a DC motor. Similar to the LED circuit, the transistor acts as a switch, allowing current to flow when the base is activated. A potentiometer is used to modulate the base current, thereby adjusting the motor’s speed. The diode is placed in parallel with the motor to protect against voltage spikes caused by inductive loads.
-   Schematic 4 shown below describes the construction for the transistor controlled motor circuit.
+   The voltage follower circuit was constructed following the given schematic. The function generator was set to 1V amplitude and 2 kHz frequency, and it was connected to Vi.
 
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/db1927d1-b8ee-47f9-a5d6-02810c6a91e9" alt="Schematic 4" width="400">
 <br/>
 
-<figcaption style="font-size: 16px; text-align: center;"> Figure 7: Transistor controlled motor current and speed schematic. </figcaption>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 7: Voltage follower op amp current and speed schematic. </figcaption>
 </div>   
 
 <br/>
@@ -135,10 +118,50 @@ February 24th, 2025
    <div align="center">
   <img src="https://github.com/user-attachments/assets/d2981ce5-c15f-4577-a524-8122d3324fc7" alt="Assembled parallel resistor circuit" width="400">
       <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 7: Transistor controlled motor current and speed schematic. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 8: Constructed voltage follower op amp circuit from Figure 7. </figcaption>
 </div>
 
+2.2. **Integrating Op Amp Circuit**
 
+   The integrating op amp circuit was assembled according to the schematic given in Figure . The function generator was connected to Vi.
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/db1927d1-b8ee-47f9-a5d6-02810c6a91e9" alt="Schematic 4" width="400">
+<br/>
+
+<figcaption style="font-size: 16px; text-align: center;"> Figure 9: Transistor controlled motor current and speed schematic. </figcaption>
+</div>   
+
+<br/>
+  Once assembled, the circuit should look resemble Figure 8 below.
+
+   <div align="center">
+  <img src="https://github.com/user-attachments/assets/d2981ce5-c15f-4577-a524-8122d3324fc7" alt="Assembled parallel resistor circuit" width="400">
+      <br/>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 10: Transistor controlled motor current and speed schematic. </figcaption>
+</div>
+
+<br>
+
+2.3. ** Differentiating Op Amp Circuit**
+   The differentiating op amp circuit was built following the schematic shown in Figure 11. The function generator was connected to Vi.
+
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/db1927d1-b8ee-47f9-a5d6-02810c6a91e9" alt="Schematic 4" width="400">
+<br/>
+
+<figcaption style="font-size: 16px; text-align: center;"> Figure 11: Differentiating op amp schematic. </figcaption>
+</div>   
+
+<br/>
+  Once assembled, the circuit should look resemble Figure 8 below.
+
+   <div align="center">
+  <img src="https://github.com/user-attachments/assets/d2981ce5-c15f-4577-a524-8122d3324fc7" alt="Assembled parallel resistor circuit" width="400">
+      <br/>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 12: Constructed differentiating op amp schematic. </figcaption>
+</div>
 <br>
 
 ## Test Equipment
@@ -152,56 +175,47 @@ February 24th, 2025
 
    For this part of the experiment, the resistance each resistor was measured using a Digital Multimeter (DMM) and the results were compared to the expected values based on the resistor color codes. We recorded the expected resistance, the acceptable tolerance range, and the measured resistance in a table. Any resistors that fell outside the expected range were noted.
 
-**Part 1.1: LED Directly Connected by a Switch**
+**Part 1.1: Unity Gain Inverting Op Amp**
 
-1. **Voltage and Current Measurements:**
+1. **Voltage Measurements:**
    
-   Using the circuit created in objective 1.1 of the assembly procedures, connect the terminal of R1 and the switch to the DC Power Supply using the alligator clips. Ensure black is connected to - terminal (ground) and red is connected to the + terminal.
-   Once connected, set the DCPS to 5 V and press the OUTPUT ON button to begin delivering power to the circuit. Next, using the DMM, measure the voltage at each point with respect to ground (T4) and record the results in a table. Attach the black (COMMON) multimeter probe to a point close to the switch terminal. Be sure to record each voltage for the switch ON and the switch OFF.
-   Try to measure as close to the resistor terminal as possible to avoid any small voltage drops. Additionally, measure the voltage across each component in the circuit (R1, LED, switch) and record in the table. See Figure 9 for how voltage across each component was measured. Use the measured voltages to calculate the currents through each resistor.
-   Change the DMM settings and lead connections to measure current, then record the current through the LED in the circuit for the switch ON and OFF.
+   Vo vs. Vi data was collected for at least 9 Vi values ranging from negative to positive saturation points (-15V to 15V). The corresponding Vo values were recorded, and a graph was prepared, showing the lab data as scattered points around the expected gain line. The potentiometer was adjusted to Vi = -15, -14, -12, -5, 0, 5, 12, 14, 15, then Vo was measured. Figure 12 describes the technique used to change the resistance value of the 10 kΩ potentiometer.
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/ee69acd4-0dfe-4854-847b-8f4fff4db869" alt="Measuring Voltage Across" width="400">
-      <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 9: Measuring voltage across a resistor using the DMM. </figcaption>
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/c3f1a1d9-a926-455f-b542-f99bfec9acda" alt "Circuit 1" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 12: Altering the resistance of the 10kΩ potentiometer. </figcaption>
 </div>
 
+<br>
 
-**Part 1.2: LED Driven by a Transistor Circuit**
 
-1. **Voltage and Current Measurements:**
+**Part 1.2: Moderate Gain Inverting Op Amp Circuit**
+
+1. **Voltage Measurements:**
  
-  Using the circuit created in objective 1.2 of the assembly procedures, connect the point T7 to the 5VDC output and T1 to the main output using the alligator clips.
-   Once connected, set the DCPS to 5 V and press the OUTPUT ON button to begin delivering power to the circuit. Next, using the DMM, measure the voltage at each point with respect to ground (T4) and record the results in a table. Make sure to record each voltage for the switch ON and the switch OFF. Try to measure as close to the resistor terminal as possible to avoid any small voltage drops.
-   Also measure the voltage across each component in the circuit, such as R1, LED, R2, and the switch and record in the table. Use the voltages to calculate the currents through the various resistors.
-   Change the DMM settings and lead connections to measure current, then record the current through the LED and R2 in the circuit for the switch ON and OFF.
+  The oscilloscope was used to plot Vi on channel 1 and Vo on channel 2. The gain of the circuit was measured and calculated using the oscilloscope.
 
 
 <div/>
    
-**Part 1.3: Controlling LED Current Using a Transistor Circuit**
+**Part 1.3: High-Gain Inverting Op Amp Circuit**
 
-   1. **Voltage and Current Measurements:**
-  Using the circuit created in objective 1.3 of the assembly procedures, connect R3 and T1 to the 5VDC output and the other end of R3 and T4 to ground using the alligator clips.
-   Once connected, set the DCPS to 5 V and press the OUTPUT ON button to begin delivering power to the circuit. Next, using the DMM connected to T2, measure the voltage while adjusting the 1 kΩ potentiometer. Once the voltage at T2 is not changing, you can declare your minimum and maximum LED brightnesses. Additionally, identify two intermediate (midpoint) voltges between the dim and bright LED settings. The method used for adjusting the potentiometer is shown in Figure 10 below.
+   1. **Voltage Measurements:**
+  The oscilloscope was used to plot Vi on channel 1 and Vo on channel 2. The gain of the circuit was measured and calculated using the oscilloscope.
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/ff4316f2-4f2a-442a-a28a-cd46efaa3b5c" alt="Measuring Voltage Across" width="400">
-      <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 10: Adjusting the potentiometer voltage output. </figcaption>
-</div>
+**Part 2.1: Voltage Follower Circuit**
 
-   For each potentiometer setting, measure the voltage at each test point and the voltage across each component (R1, LED, R2). Try to measure as close to the resistor terminal as possible to avoid any small voltage drops. Record all values in the table.
-   Change the DMM settings and lead connections to measure current, then record the current through the LED and R2 in the circuit for each potentiometer setting. Using the LED current (Ic) and the R2 current (Ib), calculate the gain.
-   
+   The oscilloscope was used to check whether the input and output voltage were the same. Vo vs. Vi data was collected, and the gain for this circuit was estimated. The frequency was increased to determine and record the frequency limit for the 741 op amp.
 
-**Part 2.1: Controlling Motor Current and Speed Using a Transistor**
+**Part 2.2: Integrating Op Amp Circuit
+   The function generator was used to observe and sketch or capture images of the input and output waveforms for 4 kHz, 1Vp-p, sine, square, and triangle waves. Voltage and frequency were varied, and differences were noted.
 
-   Use the circuit assembly from of objective 2.1 of the assembly procedures. Once assembled, use ta screwdriver too adjust the voltage level of the 1kΩ potentiometer. Connect the DMM to T2, and if the voltage is not changing identify these points as the minimum and maximum speed of the motor. Additionally, choose two intermediate voltages (midpoints) between the minimum and maximum motor speed.
-   For each potentiometer setting, measure the voltage at each test point and the voltage across each component (R1, M1, R2). Try to measure as close to the resistor terminal as possible to avoid any small voltage drops. Record all values in the table.
-   Change the DMM settings and lead connections to measure current, then record the current through the M1 and R2 in the circuit for each potentiometer setting. Using the motor current (Ic) and the R2 current (Ib), calculate the gain.
-   
+**Part 2.3: Differentiating Op Amp Circuit**
+   The function generator was used to observe and sketch the input and output waveforms for 1 kHz, 2Vp-p, sine, square, and triangle waves. Voltage and frequency were varied, and differences were noted.
+
+ 
 ## Test Results:
 
 **Table 1: Resistor Values**
