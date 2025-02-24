@@ -95,7 +95,7 @@ February 24th, 2025
 
    Unfortunately, our group did not take a photo of the constructed circuit for Schematic 3, but when constructed, the circuit assembled using Schematic 3 should have the same setup as the previous circuit in Figure 5, but with resistors values of 1.5 MΩ and 1 kΩ. 
 <br>
-
+<div/>
 <br/>
 
 **Objective 2: Op Amps and Frequency Response**
