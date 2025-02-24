@@ -417,7 +417,28 @@ The o-scope display for the triangle wave is shown in Figure 24 below.
 
 ## Discussion:
 
+Part 1.1: 
 
+describe performance curve for potentiometer. you will need to plot this on the excel and add the figure after Table 8.
+Prepare a graph showing the lab data as scattered points around the line for the expected gain
+(consider actual resistor values
+
+Rest of Part 1: 
+
+Compare the performance of each amplifier circuit to its expected theoretical performance with
+regard to gain.
+b. Comment on the limits of op-amp circuits with respect to maximum output voltage.
+c. Are the LM741 op amps symmetric i.e. does the positive voltage performance equal the
+negative voltage performance?
+
+Part 2.1: 
+
+discuss frequency limit
+
+Rest of Part 2:
+
+Did the integrating and differentiating circuits perform the mathematical operations expected?
+Explain.
 
 ## Conclusion:
 
