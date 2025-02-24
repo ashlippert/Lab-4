@@ -262,15 +262,79 @@ The o-scope display for the triangle wave is shown in Figure 19 below.
 
 <br>
 <div align= "center">
-<img src="https://github.com/user-attachments/assets/21d84b60-d061-4f1b-ab17-345b21b9a0f5" alt "Triangle Wave Cicuit 5" width="400"/>
+<img src="https://github.com/user-attachments/assets/21d84b60-d061-4f1b-ab17-345b21b9a0f5" alt "Triangle Wave Circuit 5" width="400"/>
 <br>
 <figcaption style="font-size: 16px; text-align: center;"> Figure 19: Triangle wave output for integrating op-amp circuit. </figcaption>
 </div>
 
+   Additionally, the relationship between the wave output, amplitude, and frequency was observed. Figure 20 shows how the o-scope display responds to decreasing frequency, and Figure 20 describes the effect of increasing amplitude.
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/c52bb2b4-9426-444e-9cca-b311ebf6d8a5" alt "Dec Frequency for Circuit 5" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 20: Decreasing frequency wave o-scope display. </figcaption>
+</div>   
+
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/b122ffe4-abda-415f-a699-1c56f5c854e2" alt "Inc Amplitude for Circuit 5" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 21: Increasing amplitude of wave o-scope display. </figcaption>
+</div>  
+<br>
+
 **Part 2.3: Differentiating Op Amp Circuit**
    The function generator was used to observe and sketch the input and output waveforms for 1 kHz, 2Vp-p, sine, square, and triangle waves. Voltage and frequency were varied, and differences were noted.
 
- 
+<br>
+
+The o-scope display for the sine wave is shown in Figure 22 below.
+
+<br>
+<div align= "center">
+<img src="hhttps://github.com/user-attachments/assets/c750b07d-cdd7-4e06-a770-52fd73f9cb5d" alt "Sine wave Circuit 6" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 22: Sine wave output for integrating op-amp circuit. </figcaption>
+</div>
+
+The o-scope display for the square wave is shown in Figure 23 below.
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/6aeb3c5e-d3eb-48da-9bab-c91cdf5665bb" alt "Square Wave Circuit 6" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 23: Square wave output for integrating op-amp circuit. </figcaption>
+</div>
+
+The o-scope display for the triangle wave is shown in Figure 24 below.
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/a9e0e3f0-ffd1-41b2-8095-cd032a79953e" alt "Triangle Wave Circuit 6" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 24: Triangle wave output for integrating op-amp circuit. </figcaption>
+</div>
+
+   Just like in Part 2.2, the relationship between the wave output, amplitude, and frequency was observed. Figure 25 shows how the o-scope display responds to increasing frequency, and Figure 26 describes the effect of increasing amplitude.
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/436c0218-0219-4276-8245-e2222432c82c" alt "Inc Frequency for Circuit 6" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 25: Increasing frequency wave o-scope display. </figcaption>
+</div>
+
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/14e29e7b-22b2-4193-9b4c-8f5bffec1bc9" alt "Inc Amplitude for Circuit 6" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 26: Increasing amplitude of wave o-scope display. </figcaption>
+</div>  
+<br>
+
 ## Test Results:
 
 **Table 1: Resistor Values**
