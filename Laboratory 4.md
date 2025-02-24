@@ -59,7 +59,7 @@ February 24th, 2025
 
 1.2. **Moderate Gain Inverting Op Amp Circuit**
 
-   The moderate gain inverting op amp circuit was assembled following the schematic shown in Figure 4. The function generator was set to 100mV and 2 kHz and connected to Vi, as shown in Figure 5.
+   The moderate gain inverting op amp circuit was assembled following the schematic shown in Figure 4. The function generator was set to 100mV and 2 kHz and connected to Vi, as shown in Figure 5. 
 
 
 <div align="center">
@@ -72,7 +72,7 @@ February 24th, 2025
 
 <br>
 
-   When constructed, the circuit assembled using Schematic 2 should resemble Figure 4.
+   When constructed, the circuit assembled using Schematic 2 should resemble Figure 4. For this constructed circuit, a 68 kΩ resistor was placed in front of the Function Generator.
 
    <div align="center">
   <img src="https://github.com/user-attachments/assets/e5545ff6-a57e-4884-9d19-4f66c70b305a" alt="Circuit 2" width="400"/>
@@ -94,7 +94,7 @@ February 24th, 2025
 <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 6: High gain inverting op amp schematic. </figcaption>
 
-   Unfortunately, our group did not take a photo of the constructed circuit for Schematic 3, but when constructed, the circuit assembled using Schematic 3 should have the same setup as the previous circuit in Figure 5, but with resistors values of 1.5 MΩ and 1 kΩ. 
+   Unfortunately, our group did not take a photo of the constructed circuit for Schematic 3, but when constructed, the circuit assembled using Schematic 3 should have the same setup as the previous circuit in Figure 5, but with resistors values of 1.5 MΩ and 1 kΩ. For this constructed circuit, a 68 kΩ resistor was also placed in front of the Function Generator.
 <br>
 </div>
 
@@ -357,29 +357,21 @@ The o-scope display for the triangle wave is shown in Figure 24 below.
 | 13         | 220000                     | 5%        | 231000           | 209000           | 218200                      |
 
 
-**Table 2: DCPS Voltage Verification**
-| Expected DCPS Voltage Output (V) | Measured Voltage with DMM (V) |
-|----------------------------------|-------------------------------|
-| 5                                | 5.01                          |
+**Table 2: Unity Gain Inverting Op Amp Voltages**
 
-**Table 3: LED Directly Controlled by a Switch**
+| Target Vi (V) | Measured Vi (V) | Measured Vo (V) |
+|---------------|-----------------|-----------------|
+| -15           | -14.98          | 14.25           |
+| -14           | -13.99          | 13.96           |
+| -12           | -12.02          | 12              |
+| -5            | -5.01           | 5.002           |
+| 0             | 0.001           | 0.018           |
+| 5             | 4.997           | -4.97           |
+| 12            | 12.02           | -11.97          |
+| 14            | 14              | -12.92          |
+| 15            | 14.99           | -12.91          |
 
-| Test Point |     Voltage (Switch On)     |     Voltage (Switch Off)     |
-|------------|-----------------------------|------------------------------|
-| T2         | 2.045 V                     | 0.163 V                      |
-| T3         | 0 V                         | 0  V                         |
-
-| Component  |  Voltage Across (Switch On) |  Voltage Across (Switch Off) |
-|------------|-----------------------------|------------------------------|
-| R1         | 2.95 V                      | 0 V                          |
-| LED1       | 2.05 V                      | 0.171 V                      |
-| S1         | 0 V                         | 0 V                          |
-
-|            | Current Through (Switch On) | Current Through (Switch Off) |
-|------------|-----------------------------|------------------------------|
-| LED1       | 0.012 A                     | 0 A                          |
-
-**Table 4: LED Controlled by a Transistor**
+**Table 3: LED Controlled by a Transistor**
 
 | Test Point |     Voltage (Switch On)    |     Voltage (Switch Off)      |
 |------------|----------------------------|-------------------------------|
