@@ -116,7 +116,7 @@ February 24th, 2025
   Once assembled, the circuit should look resemble Figure 8 below.
 
    <div align="center">
-  <img src="[https://github.com/user-attachments/assets/0a8a5f82-c6f0-4582-8a80-a51c4bc0ef43](https://github.com/user-attachments/assets/1e3d7d5b-bb39-4b12-9abe-971e10933cd9)" alt="Assembled voltage follower op amp circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/1e3d7d5b-bb39-4b12-9abe-971e10933cd9" alt="Assembled voltage follower op amp circuit" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 8: Constructed voltage follower op amp circuit from Figure 7. </figcaption>
 </div>
@@ -136,7 +136,7 @@ February 24th, 2025
   Once assembled, the circuit should look resemble Figure 10 below.
 
    <div align="center">
-  <img src="https://github.com/user-attachments/assets/d2981ce5-c15f-4577-a524-8122d3324fc7" alt="Assembled Integrating op amp circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/262fddca-2d42-4608-9ca7-bd8a3384331c" alt="Assembled Integrating op amp circuit" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 10: Constructed intergrating op amp circuit. </figcaption>
 </div>
@@ -214,19 +214,58 @@ February 24th, 2025
 </div>
 
 
-<div/>
    
 **Part 1.3: High-Gain Inverting Op Amp Circuit**
 
    1. **Voltage Measurements:**
-  The oscilloscope was used to plot Vi on channel 1 and Vo on channel 2. The gain of the circuit was measured and calculated using the oscilloscope.
+  The oscilloscope was used to plot Vi on channel 1 and Vo on channel 2. The gain of the circuit was measured and calculated using the oscilloscope. The o-scope display for this circuit was similar to what was shown in the previous Figure 15.
+
+
+<br> 
 
 **Part 2.1: Voltage Follower Circuit**
 
-   The oscilloscope was used to check whether the input and output voltage were the same. Vo vs. Vi data was collected, and the gain for this circuit was estimated. The frequency was increased to determine and record the frequency limit for the 741 op amp.
+   The oscilloscope was used to check whether the input and output voltage were the same. Vo vs. Vi data was collected, and the gain for this circuit was estimated. The frequency was increased to determine and record the frequency limit for the op amp.
+   
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/0343927d-d9eb-4dce-98fa-5275dc572136" alt "Function Generator" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 16: Function Generator for increasing frequency to find the op amp frequency limit. </figcaption>
+</div>
 
-**Part 2.2: Integrating Op Amp Circuit
+
+**Part 2.2: Integrating Op Amp Circuit**
    The function generator was used to observe and sketch or capture images of the input and output waveforms for 4 kHz, 1Vp-p, sine, square, and triangle waves. Voltage and frequency were varied, and differences were noted.
+
+<br>
+
+The o-scope display for the sine wave is shown in Figure 17 below.
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/70fde8c2-5680-46c5-9098-d5371c6bb318" alt "Sine wave Circuit 5" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 17: Sine wave output for integrating op-amp circuit. </figcaption>
+</div>
+
+The o-scope display for the square wave is shown in Figure 18 below.
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/3516ec5c-244c-4a1c-9120-a5e748cdac0c" alt "Square Wave Circuit 5" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 18: Square wave output for integrating op-amp circuit. </figcaption>
+</div>
+
+The o-scope display for the triangle wave is shown in Figure 19 below.
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/21d84b60-d061-4f1b-ab17-345b21b9a0f5" alt "Triangle Wave Cicuit 5" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 19: Triangle wave output for integrating op-amp circuit. </figcaption>
+</div>
 
 **Part 2.3: Differentiating Op Amp Circuit**
    The function generator was used to observe and sketch the input and output waveforms for 1 kHz, 2Vp-p, sine, square, and triangle waves. Voltage and frequency were varied, and differences were noted.
