@@ -478,4 +478,9 @@ These results confirm that our circuits performed their intended mathematical op
 
 ## Conclusion:
 
+This lab provided valuable hands-on experience in constructing and analyzing operational amplifier circuits. By building and testing inverting amplifiers, a voltage follower, and integrating and differentiating circuits, we gained insight into the performance limitations of the LM741 op-amp.
+
+Our results demonstrated that real-world op-amp behavior deviates from ideal theoretical models due to factors such as component tolerances, voltage saturation limits, and bandwidth constraints. The observed gain discrepancies, output voltage clipping, and frequency response issues highlight the practical challenges in designing amplifier circuits. Additionally, while the LM741 showed minor asymmetry between positive and negative outputs, it remained functional within acceptable limits for most applications.
+
+Despite a potential user error in measuring the frequency limit of the voltage follower, the lab successfully reinforced the fundamental principles of op-amp operation and circuit analysis. Future improvements could include using higher precision components and verifying measurements through repeated trials to minimize inconsistencies. Overall, this experiment deepened our understanding of operational amplifiers and their practical applications in signal processing and electronics.
 
