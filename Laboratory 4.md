@@ -423,22 +423,58 @@ describe performance curve for potentiometer. you will need to plot this on the 
 Prepare a graph showing the lab data as scattered points around the line for the expected gain
 (consider actual resistor values
 
+
+<br>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/ce586e1d-b791-4319-a63a-db7b605d4bc1" alt "Vo vs. Vi" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 27: Vo vs. Vi. </figcaption>
+</div>
+
+We analyzed the performance curve for the potentiometer by plotting the measured Vi vs. Vo values from Table 2. The graph demonstrates a nearly linear relationship, confirming that the unity gain inverting amplifier behaves as expected within its operational range. However, as the input voltage approaches the saturation limits of the op-amp, the output deviates from the ideal linear response due to the inherent voltage limitations of the LM741. This behavior aligns with the expected characteristics of an operational amplifier nearing saturation. The plotted data was included in Excel and placed after Table 8.
+
 Rest of Part 1: 
 
 Compare the performance of each amplifier circuit to its expected theoretical performance with
 regard to gain.
+
+We compared the experimental gain values for the moderate and high-gain inverting op-amp circuits with the theoretical values calculated using resistor ratios. The theoretical gain for the moderate gain circuit, based on the expected resistor values, was approximately -68, but our measured gain was 41.33. Similarly, the high-gain circuit had an expected gain of -1500 but a measured gain of 511.11. These discrepancies can be attributed to component tolerances, parasitic resistances, and the limited open-loop gain of the LM741, which reduces its effectiveness at high gains.
+
+
 b. Comment on the limits of op-amp circuits with respect to maximum output voltage.
+
+We observed that the LM741 does not output its full power supply range due to internal design constraints. As shown in Table 2, the output voltage saturates at approximately ±12.9V rather than reaching the full ±15V supply rails. This behavior is a known limitation of the LM741, which typically has a voltage swing of about 2-3V less than the supply rails. This limitation must be considered in practical applications where maximizing the dynamic range is essential.
+
+
 c. Are the LM741 op amps symmetric i.e. does the positive voltage performance equal the
 negative voltage performance?
 
+Our Vo vs. Vi graph indicates that the LM741 does not exhibit perfect symmetry in positive and negative voltage performance. While the output voltage generally follows the expected inverted relationship, we noticed minor differences in the absolute values of positive and negative outputs. These variations arise due to internal offsets, manufacturing tolerances, and asymmetrical sourcing and sinking capabilities of the output stage. Though small, these differences can impact precision applications.
 Part 2.1: 
 
+
 discuss frequency limit
+
+We tested the voltage follower circuit to determine the frequency at which it could no longer maintain a stable output. The measured frequency limit was found to be 4.3 MHz, as recorded in Table 6. This result is unexpectedly high given that the LM741 has a typical gain-bandwidth product of approximately 1 MHz. The discrepancy is likely due to a user error in measurement, possibly from incorrect oscilloscope settings or a misunderstanding of the measuring procedure.
 
 Rest of Part 2:
 
 Did the integrating and differentiating circuits perform the mathematical operations expected?
 Explain.
+
+We analyzed the integrating and differentiating circuits using various input waveforms, including sine, square, and triangle waves. The integrating circuit successfully transformed:
+- Sine waves into cosine waves (consistent with integration)
+- Square waves into triangular waves
+- Triangle waves into parabolic-like curves
+  
+Similarly, the differentiating circuit demonstrated expected behavior by converting:
+
+- Sine waves into cosine waves
+- Triangle waves into square waves
+- Square waves into sharp spikes, characteristic of differentiation
+  
+These results confirm that our circuits performed their intended mathematical operations. However, at higher frequencies, distortions were observed, likely due to limitations in the LM741’s bandwidth and phase shifts introduced by non-ideal component characteristics. This highlights the importance of selecting op-amps with appropriate frequency response for high-speed applications.
+
 
 ## Conclusion:
 
